@@ -1,19 +1,16 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     background-color: #111;
     color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
     margin: 0;
-    padding: 20px;
+    padding: 10px;
 }
 
-h1 {
-    color: #4caf50;
-}
+h1 { color: #4caf50; }
 
 #game-container {
+    display: inline-block;
     position: relative;
 }
 
@@ -21,16 +18,30 @@ h1 {
     background-color: #222;
     border: 2px solid #4caf50;
     display: block;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
 }
 
 #scoreboard {
-    margin-top: 10px;
     display: flex;
     justify-content: space-between;
-    width: 400px;
+    margin-top: 10px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#scoreboard p {
-    margin: 0;
-    font-size: 1.2em;
+#controls {
+    margin-top: 15px;
+}
+
+#controls button {
+    font-size: 1.5rem;
+    margin: 3px;
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
 }
