@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advanced Snake Game</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Advanced Snake Game</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Advanced Snake Game 🍎</h1>
     <div id="game-container">
-        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        <canvas id="gameCanvas"></canvas>
         <div id="scoreboard">
             <p>Score: <span id="score">0</span></p>
             <p>Level: <span id="level">1</span></p>
         </div>
+        <div id="controls">
+            <button id="up">⬆</button>
+            <div>
+                <button id="left">⬅</button>
+                <button id="down">⬇</button>
+                <button id="right">➡</button>
+            </div>
+        </div>
     </div>
-    <p>Use arrow keys or swipe on mobile to move!</p>
     <script src="script.js"></script>
 </body>
 </html>
