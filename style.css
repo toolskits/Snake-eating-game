@@ -45,3 +45,12 @@ h1 { color: #4caf50; }
     border: none;
     border-radius: 5px;
 }
+
+#leaderboard {
+    margin-top: 15px;
+}
+
+#leaderboard ol {
+    padding-left: 20px;
+    text-align: left;
+}
